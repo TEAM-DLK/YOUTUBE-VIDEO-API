@@ -1,12 +1,5 @@
-import os
-from dotenv import load_dotenv
-
-# Load environment variables from .env file if running locally
-load_dotenv()
-
-# Expose environment variables directly
-API_ID = os.getenv('API_ID')
-API_HASH = os.getenv('API_HASH')
-BOT_TOKEN = os.getenv('BOT_TOKEN')
-CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME')
-COOKIES_PATH = os.getenv('COOKIES_PATH', 'cookies/cookies.txt')
+API_ID =22971197
+API_HASH =a46aaab0cf1854c634dde4566c827b71
+BOT_TOKEN =7306410200:AAHv5_uxlWFg__Ffvrri6QVAvdNmACL8tgQ
+CHANNEL_USERNAME =DOOZY_OFF
+COOKIES_PATH =cookies/cookies.txt
