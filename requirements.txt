@@ -3,3 +3,4 @@ tgcrypto
 pytube
 flask
 gunicorn
+python-dotenv==0.19.2  # or the latest version
