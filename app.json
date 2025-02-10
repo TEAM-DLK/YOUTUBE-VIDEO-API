@@ -27,11 +27,7 @@
       "value": "cookies/cookies.txt",
       "required": true
     },
-    "CHANNEL_USERNAME": {
-      "description": "Your channel username (without @)",
-      "required": true
-    }
-  },
+  
   "formation": {
     "worker": {
       "quantity": 1,
