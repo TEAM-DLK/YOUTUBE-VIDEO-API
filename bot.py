@@ -23,7 +23,7 @@ def home():
 bot = Client("yt_bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
 
 # Load cookies from file
-def load_cookies(cookie_path="cookies.txt"):
+def load_cookies(cookie_path="cookies/cookies.txt"):
     try:
         with open(cookie_path, "r", encoding="utf-8") as file:
             return file.read()
@@ -32,7 +32,7 @@ def load_cookies(cookie_path="cookies.txt"):
         return None
 
 # YouTube download function
-def download_youtube_video(url, cookies_path="cookies.txt"):
+def download_youtube_video(url, cookies_path="cookies/cookies.txt"):
     cookies = load_cookies(cookies_path)
     try:
         yt = YouTube(url, cookies=cookies) if cookies else YouTube(url)
