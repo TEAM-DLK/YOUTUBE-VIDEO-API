@@ -16,7 +16,6 @@ ENV API_ID=your_api_id
 ENV API_HASH=your_api_hash
 ENV BOT_TOKEN=your_bot_token
 ENV COOKIES_PATH=cookies/cookies.txt
-ENV CHANNEL_USERNAME=your_channel_username
 
 # Expose port (for Flask web server)
 EXPOSE 5000
