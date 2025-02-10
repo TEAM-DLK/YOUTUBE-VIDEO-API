@@ -10,4 +10,4 @@ class Config:
     API_HASH = os.getenv('API_HASH')  # Telegram API Hash
     BOT_TOKEN = os.getenv('BOT_TOKEN')  # Telegram Bot Token
     CHANNEL_USERNAME = os.getenv('CHANNEL_USERNAME')  # Channel username (without @)
-    COOKIES_PATH = os.getenv('COOKIES_PATH', 'cookies.txt')  # Path to cookies file
+    COOKIES_PATH = os.getenv('COOKIES_PATH', 'cookies/cookies.txt')  # Path to cookies file
