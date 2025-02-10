@@ -1,7 +1,7 @@
 {
   "name": "yt-downloader-bot",
   "description": "Telegram bot to download YouTube videos",
-  "repository": "https://github.com/yourusername/yt-downloader-bot",
+  "repository": "https://github.com/TEAM-DLK/YOUTUBE-VIDEO-API",
   "logo": "https://path-to-your-logo-image.com/logo.png",
   "keywords": ["telegram", "bot", "youtube", "video downloader"],
   "env": {
@@ -27,7 +27,7 @@
     }
   },
   "formation": {
-    "eco": {
+    "web": {
       "quantity": 1,
       "size": "eco"
     }
