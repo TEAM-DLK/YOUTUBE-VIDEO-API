@@ -7,11 +7,11 @@
   "env": {
     "API_ID": {
       "description": "Telegram API ID",
-      "value": "your_api_id"
+      "value": "22971197"
     },
     "API_HASH": {
       "description": "Telegram API Hash",
-      "value": "your_api_hash"
+      "value": "a46aaab0cf1854c634dde4566c827b71"
     },
     "BOT_TOKEN": {
       "description": "Telegram Bot Token",
@@ -19,11 +19,11 @@
     },
     "CHANNEL_USERNAME": {
       "description": "Your Telegram Channel Username (without @)",
-      "value": "your_channel_username"
+      "value": "DOOZY_OFF"
     },
     "COOKIES_PATH": {
       "description": "Path to cookies.txt file",
-      "value": "cookies.txt"
+      "value": "cookies/cookies.txt"
     }
   },
   "formation": {
