@@ -1,43 +1,41 @@
 {
-  "name": "yt-downloader-bot",
-  "description": "Telegram bot to download YouTube videos",
-  "repository": "https://github.com/TEAM-DLK/YOUTUBE-VIDEO-API",
-  "logo": "https://path-to-your-logo-image.com/logo.png",
-  "keywords": ["telegram", "bot", "youtube", "video downloader"],
-  "env": {
-    "API_ID": {
-      "description": "Telegram API ID",
-      "value": "22971197"
-    },
-    "API_HASH": {
-      "description": "Telegram API Hash",
-      "value": "a46aaab0cf1854c634dde4566c827b71"
-    },
-    "BOT_TOKEN": {
-      "description": "Telegram Bot Token",
-      "value": "your_bot_token"
-    },
-    "CHANNEL_USERNAME": {
-      "description": "Your Telegram Channel Username (without @)",
-      "value": "DOOZY_OFF"
-    },
-    "COOKIES_PATH": {
-      "description": "Path to cookies.txt file",
-      "value": "cookies/cookies.txt"
-    }
-  },
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  },
+  "name": "YouTube Downloader Bot",
+  "description": "A Telegram bot to download YouTube videos.",
+  "repository": "https://github.com/yourusername/your-repo-name",
+  "logo": "https://img.icons8.com/color/48/youtube-play.png",
+  "keywords": ["telegram", "youtube", "pyrogram", "pytube"],
   "buildpacks": [
     {
       "url": "heroku/python"
     }
   ],
-  "scripts": {
-    "postdeploy": "echo 'App has been deployed'"
+  "env": {
+    "API_ID": {
+      "description": "Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
+    "BOT_TOKEN": {
+      "description": "Telegram bot token from @BotFather",
+      "required": true
+    },
+    "COOKIES_PATH": {
+      "description": "Path to cookies.txt (e.g., /app/cookies.txt)",
+      "value": "/app/cookies.txt",
+      "required": true
+    },
+    "CHANNEL_USERNAME": {
+      "description": "Your channel username (without @)",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
   }
 }
