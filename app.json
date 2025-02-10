@@ -22,11 +22,6 @@
       "description": "Telegram bot token from @BotFather",
       "required": true
     },
-    "COOKIES_PATH": {
-      "description": "Path to cookies.txt (e.g., /app/cookies.txt)",
-      "value": "cookies/cookies.txt",
-      "required": true
-    },
   
   "formation": {
     "worker": {
