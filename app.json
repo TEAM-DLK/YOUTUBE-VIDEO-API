@@ -1,7 +1,7 @@
 {
   "name": "YouTube Downloader Bot",
   "description": "A Telegram bot to download YouTube videos.",
-  "repository": "https://github.com/yourusername/your-repo-name",
+  "repository": "https://github.com/TEAM-DLK/YOUTUBE-VIDEO-API",
   "logo": "https://img.icons8.com/color/48/youtube-play.png",
   "keywords": ["telegram", "youtube", "pyrogram", "pytube"],
   "buildpacks": [
